@@ -1,0 +1,47 @@
+html{
+    color: #3a3a50;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(to right, #3a3a50, #564d9e); /* Gradient background */
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: #d4dee6;
+}
+
+a{
+    background: linear-gradient(to right, #50a7e8, #95e3e3); /* Gradient background */
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    margin-top: 15px;
+
+    width: 450px; /* Adjust this value as needed */
+    text-align: center; /* Center the link content */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+a:hover {
+    background-color: lightgray; /* Change background color on hover */
+}
+
+.contact{
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #3a3a50;
+    margin-top: 45px;
+    color: #d4dee6;
+
+    padding: 20px;
+}
